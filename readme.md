@@ -1,7 +1,7 @@
 #HDClassifyTable 
 github地址:https://github.com/Joyinter/HDClassifyTable
 ##tableView实现电商分类列表,拥有展开收起和滑动关联功能
-感谢HandyFrame的作者Casatwy,这个工程离不开他的帮助与指导,他的个人主页http://casatwy.com/
+感谢HandyFrame的作者Casa Taloyum,这个工程离不开他的帮助与指导,他的个人主页http://casatwy.com/
 ###HDClassifyTable功能介绍和开发思路
 详情参见我的[简书](http://www.jianshu.com/p/18a4b5fef592,"简书")
 ###使用方法
