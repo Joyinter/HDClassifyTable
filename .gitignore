@@ -1,0 +1,7 @@
+HDClassifyTable.xcodeproj/xcuserdata/
+HDClassifyTable.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+HDClassifyTable.xcodeproj/project.xcworkspace/xcuserdata/

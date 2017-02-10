@@ -13,6 +13,7 @@
 		639AE7961E4D530400EFCFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639AE7941E4D530400EFCFC6 /* Main.storyboard */; };
 		639AE7981E4D530400EFCFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639AE7971E4D530400EFCFC6 /* Assets.xcassets */; };
 		639AE79B1E4D530400EFCFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639AE7991E4D530400EFCFC6 /* LaunchScreen.storyboard */; };
+		639AE7A51E4D535600EFCFC6 /* HDClassifyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7A41E4D535600EFCFC6 /* HDClassifyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		639AE7971E4D530400EFCFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639AE79A1E4D530400EFCFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639AE79C1E4D530400EFCFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639AE7A31E4D535600EFCFC6 /* HDClassifyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDClassifyTableViewController.h; sourceTree = "<group>"; };
+		639AE7A41E4D535600EFCFC6 /* HDClassifyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDClassifyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		639AE78A1E4D530400EFCFC6 /* HDClassifyTable */ = {
 			isa = PBXGroup;
 			children = (
+				639AE7A21E4D532D00EFCFC6 /* HDClassifyTable */,
 				639AE78E1E4D530400EFCFC6 /* AppDelegate.h */,
 				639AE78F1E4D530400EFCFC6 /* AppDelegate.m */,
 				639AE7911E4D530400EFCFC6 /* ViewController.h */,
@@ -77,6 +81,39 @@
 				639AE78C1E4D530400EFCFC6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		639AE7A21E4D532D00EFCFC6 /* HDClassifyTable */ = {
+			isa = PBXGroup;
+			children = (
+				639AE7A61E4D53AA00EFCFC6 /* DataSource */,
+				639AE7A71E4D53AA00EFCFC6 /* View */,
+				639AE7A81E4D53AA00EFCFC6 /* ViewModel */,
+				639AE7A31E4D535600EFCFC6 /* HDClassifyTableViewController.h */,
+				639AE7A41E4D535600EFCFC6 /* HDClassifyTableViewController.m */,
+			);
+			path = HDClassifyTable;
+			sourceTree = "<group>";
+		};
+		639AE7A61E4D53AA00EFCFC6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		639AE7A71E4D53AA00EFCFC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		639AE7A81E4D53AA00EFCFC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +190,7 @@
 				639AE7931E4D530400EFCFC6 /* ViewController.m in Sources */,
 				639AE7901E4D530400EFCFC6 /* AppDelegate.m in Sources */,
 				639AE78D1E4D530400EFCFC6 /* main.m in Sources */,
+				639AE7A51E4D535600EFCFC6 /* HDClassifyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
