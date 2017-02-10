@@ -13,8 +13,6 @@ NSString * const kHDLeftTableViewCellIdentifier = @"kHDLeftTableViewCellIdentifi
 
 @interface HDLeftTableViewCell ()
 
-@property(nonatomic, strong) UILabel *titleLabel;
-
 @end
 
 @implementation HDLeftTableViewCell
@@ -35,7 +33,7 @@ NSString * const kHDLeftTableViewCellIdentifier = @"kHDLeftTableViewCellIdentifi
 {
     [super layoutSubviews];
     [self.titleLabel fill];
-    [self.titleLabel leftInContainer:26 * SCREEN_WIDTH / 375 shouldResize:YES];
+    [self.titleLabel leftInContainer:26 shouldResize:YES];
 }
 
 #pragma mark - event response
@@ -43,9 +41,9 @@ NSString * const kHDLeftTableViewCellIdentifier = @"kHDLeftTableViewCellIdentifi
 {
     [super setSelected:selected animated:animated];
     if (selected) {
-        self.titleLabel.textColor = [UIColor redColor];
-    }else{
         self.titleLabel.textColor = [UIColor orangeColor];
+    }else{
+        self.titleLabel.textColor = [UIColor lightGrayColor];
     }
 }
 
@@ -56,8 +54,7 @@ NSString * const kHDLeftTableViewCellIdentifier = @"kHDLeftTableViewCellIdentifi
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.textColor = [UIColor lightGrayColor];
         _titleLabel.textAlignment = NSTextAlignmentLeft;
-        _titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:13 * SCREEN_WIDTH / 375];
-        _titleLabel.text = @"奇异果";
+        _titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:13];
     }
     return _titleLabel;
 }
