@@ -7,8 +7,15 @@
 //
 
 #import "HDClassifyTableViewController.h"
+#import "HDClassifyTableViewDatasource.h"
+#import "HDClassifyLeftTableViewModel.h"
+#import "HDClassifyRightTableViewModel.h"
 
 @interface HDClassifyTableViewController ()
+
+@property (nonatomic, strong) HDClassifyLeftTableViewModel *leftTableViewModel;
+@property (nonatomic, strong) HDClassifyRightTableViewModel *rightTableViewModel;
+@property (nonatomic, strong) HDClassifyTableViewDatasource *dataSource;
 
 @end
 
@@ -16,22 +23,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Getters and Setters
+- (HDClassifyLeftTableViewModel *)leftTableViewModel
+{
+    if (_leftTableViewModel == nil) {
+        _leftTableViewModel = [[HDClassifyLeftTableViewModel alloc] init];
+    }
+    return _leftTableViewModel;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (HDClassifyRightTableViewModel *)rightTableViewModel
+{
+    if (_rightTableViewModel == nil) {
+        _rightTableViewModel = [[HDClassifyRightTableViewModel alloc] init];
+    }
+    return _rightTableViewModel;
 }
-*/
+
+- (HDClassifyTableViewDatasource *)dataSource
+{
+    if (_dataSource == nil) {
+        _dataSource = [[HDClassifyTableViewDatasource alloc] init];
+    }
+    return _dataSource;
+}
 
 @end

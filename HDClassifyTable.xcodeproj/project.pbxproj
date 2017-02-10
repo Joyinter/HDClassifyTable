@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA9889F5347826BE1C8D577 /* libPods-HDClassifyTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25C4EBCD26287E5EAB12A45 /* libPods-HDClassifyTable.a */; };
 		639AE78D1E4D530400EFCFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE78C1E4D530400EFCFC6 /* main.m */; };
 		639AE7901E4D530400EFCFC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE78F1E4D530400EFCFC6 /* AppDelegate.m */; };
 		639AE7931E4D530400EFCFC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7921E4D530400EFCFC6 /* ViewController.m */; };
@@ -14,9 +15,18 @@
 		639AE7981E4D530400EFCFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639AE7971E4D530400EFCFC6 /* Assets.xcassets */; };
 		639AE79B1E4D530400EFCFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639AE7991E4D530400EFCFC6 /* LaunchScreen.storyboard */; };
 		639AE7A51E4D535600EFCFC6 /* HDClassifyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7A41E4D535600EFCFC6 /* HDClassifyTableViewController.m */; };
+		639AE7AB1E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7AA1E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.m */; };
+		639AE7B01E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7AF1E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.m */; };
+		639AE7B31E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7B21E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.m */; };
+		639AE7BB1E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7B91E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.m */; };
+		639AE7BE1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7BD1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.m */; };
+		639AE7C11E4D600300EFCFC6 /* HDLeftTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7C01E4D600300EFCFC6 /* HDLeftTableHeaderView.m */; };
+		639AE7C41E4D606300EFCFC6 /* HDLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7C31E4D606300EFCFC6 /* HDLeftTableViewCell.m */; };
+		639AE7C71E4D607A00EFCFC6 /* HDRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AE7C61E4D607A00EFCFC6 /* HDRightTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0662E1E6567F56DA40C5DAA4 /* Pods-HDClassifyTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDClassifyTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDClassifyTable/Pods-HDClassifyTable.release.xcconfig"; sourceTree = "<group>"; };
 		639AE7881E4D530400EFCFC6 /* HDClassifyTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDClassifyTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639AE78C1E4D530400EFCFC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639AE78E1E4D530400EFCFC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +39,24 @@
 		639AE79C1E4D530400EFCFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639AE7A31E4D535600EFCFC6 /* HDClassifyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDClassifyTableViewController.h; sourceTree = "<group>"; };
 		639AE7A41E4D535600EFCFC6 /* HDClassifyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDClassifyTableViewController.m; sourceTree = "<group>"; };
+		639AE7A91E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDClassifyTableViewDatasource.h; sourceTree = "<group>"; };
+		639AE7AA1E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDClassifyTableViewDatasource.m; sourceTree = "<group>"; };
+		639AE7AE1E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDClassifyTableViewDatasource+left.h"; sourceTree = "<group>"; };
+		639AE7AF1E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDClassifyTableViewDatasource+left.m"; sourceTree = "<group>"; };
+		639AE7B11E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HDClassifyTableViewDatasource+right.h"; sourceTree = "<group>"; };
+		639AE7B21E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HDClassifyTableViewDatasource+right.m"; sourceTree = "<group>"; };
+		639AE7B81E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDClassifyLeftTableViewModel.h; sourceTree = "<group>"; };
+		639AE7B91E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDClassifyLeftTableViewModel.m; sourceTree = "<group>"; };
+		639AE7BC1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDClassifyRightTableViewModel.h; sourceTree = "<group>"; };
+		639AE7BD1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDClassifyRightTableViewModel.m; sourceTree = "<group>"; };
+		639AE7BF1E4D600300EFCFC6 /* HDLeftTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLeftTableHeaderView.h; sourceTree = "<group>"; };
+		639AE7C01E4D600300EFCFC6 /* HDLeftTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLeftTableHeaderView.m; sourceTree = "<group>"; };
+		639AE7C21E4D606300EFCFC6 /* HDLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLeftTableViewCell.h; sourceTree = "<group>"; };
+		639AE7C31E4D606300EFCFC6 /* HDLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLeftTableViewCell.m; sourceTree = "<group>"; };
+		639AE7C51E4D607A00EFCFC6 /* HDRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRightTableViewCell.h; sourceTree = "<group>"; };
+		639AE7C61E4D607A00EFCFC6 /* HDRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRightTableViewCell.m; sourceTree = "<group>"; };
+		986E704C1F73608B6A45D1F6 /* Pods-HDClassifyTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDClassifyTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDClassifyTable/Pods-HDClassifyTable.debug.xcconfig"; sourceTree = "<group>"; };
+		E25C4EBCD26287E5EAB12A45 /* libPods-HDClassifyTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDClassifyTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA9889F5347826BE1C8D577 /* libPods-HDClassifyTable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36521EE157DBA27864EC78A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986E704C1F73608B6A45D1F6 /* Pods-HDClassifyTable.debug.xcconfig */,
+				0662E1E6567F56DA40C5DAA4 /* Pods-HDClassifyTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		639AE77F1E4D530400EFCFC6 = {
 			isa = PBXGroup;
 			children = (
 				639AE78A1E4D530400EFCFC6 /* HDClassifyTable */,
 				639AE7891E4D530400EFCFC6 /* Products */,
+				36521EE157DBA27864EC78A3 /* Pods */,
+				C730770F6B0D3C6E562DBF28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +138,10 @@
 		639AE7A61E4D53AA00EFCFC6 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				639AE7AC1E4D5CE400EFCFC6 /* LeftDataSourceCategory */,
+				639AE7AD1E4D5CE400EFCFC6 /* RightDataSourceCategory */,
+				639AE7A91E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.h */,
+				639AE7AA1E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.m */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -105,6 +149,12 @@
 		639AE7A71E4D53AA00EFCFC6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				639AE7BF1E4D600300EFCFC6 /* HDLeftTableHeaderView.h */,
+				639AE7C01E4D600300EFCFC6 /* HDLeftTableHeaderView.m */,
+				639AE7C21E4D606300EFCFC6 /* HDLeftTableViewCell.h */,
+				639AE7C31E4D606300EFCFC6 /* HDLeftTableViewCell.m */,
+				639AE7C51E4D607A00EFCFC6 /* HDRightTableViewCell.h */,
+				639AE7C61E4D607A00EFCFC6 /* HDRightTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,8 +162,54 @@
 		639AE7A81E4D53AA00EFCFC6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				639AE7B71E4D5EFC00EFCFC6 /* LeftTableViewModel */,
+				639AE7BA1E4D5EFC00EFCFC6 /* RightTableViewModel */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		639AE7AC1E4D5CE400EFCFC6 /* LeftDataSourceCategory */ = {
+			isa = PBXGroup;
+			children = (
+				639AE7AE1E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.h */,
+				639AE7AF1E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.m */,
+			);
+			path = LeftDataSourceCategory;
+			sourceTree = "<group>";
+		};
+		639AE7AD1E4D5CE400EFCFC6 /* RightDataSourceCategory */ = {
+			isa = PBXGroup;
+			children = (
+				639AE7B11E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.h */,
+				639AE7B21E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.m */,
+			);
+			path = RightDataSourceCategory;
+			sourceTree = "<group>";
+		};
+		639AE7B71E4D5EFC00EFCFC6 /* LeftTableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				639AE7B81E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.h */,
+				639AE7B91E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.m */,
+			);
+			path = LeftTableViewModel;
+			sourceTree = "<group>";
+		};
+		639AE7BA1E4D5EFC00EFCFC6 /* RightTableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				639AE7BC1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.h */,
+				639AE7BD1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.m */,
+			);
+			path = RightTableViewModel;
+			sourceTree = "<group>";
+		};
+		C730770F6B0D3C6E562DBF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25C4EBCD26287E5EAB12A45 /* libPods-HDClassifyTable.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639AE79F1E4D530400EFCFC6 /* Build configuration list for PBXNativeTarget "HDClassifyTable" */;
 			buildPhases = (
+				491109C0A93B850461A40F9A /* [CP] Check Pods Manifest.lock */,
 				639AE7841E4D530400EFCFC6 /* Sources */,
 				639AE7851E4D530400EFCFC6 /* Frameworks */,
 				639AE7861E4D530400EFCFC6 /* Resources */,
+				4D5171030370B935B217E25B /* [CP] Embed Pods Frameworks */,
+				F5EB29DF850471BF05165409 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,14 +281,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		491109C0A93B850461A40F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5171030370B935B217E25B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDClassifyTable/Pods-HDClassifyTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EB29DF850471BF05165409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDClassifyTable/Pods-HDClassifyTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		639AE7841E4D530400EFCFC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639AE7AB1E4D5CAE00EFCFC6 /* HDClassifyTableViewDatasource.m in Sources */,
+				639AE7C11E4D600300EFCFC6 /* HDLeftTableHeaderView.m in Sources */,
+				639AE7BE1E4D5F1600EFCFC6 /* HDClassifyRightTableViewModel.m in Sources */,
+				639AE7BB1E4D5EFC00EFCFC6 /* HDClassifyLeftTableViewModel.m in Sources */,
+				639AE7C41E4D606300EFCFC6 /* HDLeftTableViewCell.m in Sources */,
+				639AE7B31E4D5E1F00EFCFC6 /* HDClassifyTableViewDatasource+right.m in Sources */,
 				639AE7931E4D530400EFCFC6 /* ViewController.m in Sources */,
 				639AE7901E4D530400EFCFC6 /* AppDelegate.m in Sources */,
+				639AE7B01E4D5E1400EFCFC6 /* HDClassifyTableViewDatasource+left.m in Sources */,
 				639AE78D1E4D530400EFCFC6 /* main.m in Sources */,
+				639AE7C71E4D607A00EFCFC6 /* HDRightTableViewCell.m in Sources */,
 				639AE7A51E4D535600EFCFC6 /* HDClassifyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +463,7 @@
 		};
 		639AE7A01E4D530400EFCFC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986E704C1F73608B6A45D1F6 /* Pods-HDClassifyTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDClassifyTable/Info.plist;
@@ -319,6 +475,7 @@
 		};
 		639AE7A11E4D530400EFCFC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0662E1E6567F56DA40C5DAA4 /* Pods-HDClassifyTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HDClassifyTable/Info.plist;
@@ -347,6 +504,7 @@
 				639AE7A11E4D530400EFCFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HDClassifyTable"
-  s.version      = "1"
+  s.version      = "0.0.1"
   s.summary      = "HDClassifyTable."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is HDClassifyTable
+                    this is HDClassifyTable which can unfold and interact 
                    DESC
 
   s.homepage     = "https://github.com/Joyinter/HDClassifyTable"
@@ -53,10 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
-  # Or just: s.author    = "CasaTaloyum"
-  # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
-  # s.social_media_url   = "http://twitter.com/CasaTaloyum"
+  s.author             = { "Joyinter" => "hljjxmhd@126.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -133,8 +130,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "BLNetworking"
-  # s.dependency "BLAPIManagers"
-  # s.dependency "BLMediator"
+  s.dependency "HandyFrame"
 
 end
