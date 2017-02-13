@@ -2,8 +2,8 @@
 //  HDClassifyTableViewDatasource+right.m
 //  HDClassifyTable
 //
-//  Created by Delano on 2017/2/10.
-//  Copyright © 2017年 delano. All rights reserved.
+//  Created by Joyinter on 2017/2/10.
+//  Copyright © 2017年 Joyinter. All rights reserved.
 //
 
 #import "HDClassifyTableViewDatasource+right.h"
